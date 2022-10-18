@@ -5,7 +5,6 @@ import (
 	"bytes"
 )
 
-
 type LineCounter int
 
 func (c *LineCounter) Read(p []byte) (int, error) {
@@ -17,7 +16,6 @@ func (c *LineCounter) Read(p []byte) (int, error) {
 	return len(p), nil
 }
 
-
 type WordCounter int
 
 func (c *WordCounter) Read(p []byte) (int, error) {
@@ -28,6 +26,3 @@ func (c *WordCounter) Read(p []byte) (int, error) {
 	}
 	return len(p), nil
 }
-
-
-

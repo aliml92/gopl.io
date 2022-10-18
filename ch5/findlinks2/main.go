@@ -7,6 +7,7 @@
 // result as HTML, and prints the links within it.
 //
 // Usage:
+//
 //	findlinks url ...
 package main
 
@@ -33,7 +34,7 @@ func visit(links []string, n *html.Node) []string {
 	return links
 }
 
-//!+
+// !+
 func main() {
 	for _, url := range os.Args[1:] {
 		links, err := findLinks(url)

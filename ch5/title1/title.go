@@ -41,7 +41,7 @@ func forEachNode(n *html.Node, pre, post func(n *html.Node)) {
 	}
 }
 
-//!+
+// !+
 func title(url string) error {
 	resp, err := http.Get(url)
 	if err != nil {

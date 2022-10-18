@@ -33,7 +33,7 @@ func main() {
 	//!-main
 }
 
-//!+alt
+// !+alt
 func nonempty2(strings []string) []string {
 	out := strings[:0] // zero-length slice of original
 	for _, s := range strings {

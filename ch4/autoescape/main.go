@@ -12,7 +12,7 @@ import (
 	"os"
 )
 
-//!+
+// !+
 func main() {
 	const templ = `<p>A: {{.A}}</p><p>B: {{.B}}</p>`
 	t := template.Must(template.New("escape").Parse(templ))

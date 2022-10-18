@@ -12,7 +12,7 @@ import (
 	"strings"
 )
 
-//!+print
+// !+print
 // Print prints the method set of the value x.
 func Print(x interface{}) {
 	v := reflect.ValueOf(x)

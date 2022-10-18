@@ -38,7 +38,7 @@ var issueList = template.Must(template.New("issuelist").Parse(`
 
 //!-template
 
-//!+
+// !+
 func main() {
 	result, err := github.SearchIssues(os.Args[1:])
 	if err != nil {

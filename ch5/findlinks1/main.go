@@ -27,7 +27,7 @@ func main() {
 
 //!-main
 
-//!+visit
+// !+visit
 // visit appends to links each link found in n and returns the result.
 func visit(links []string, n *html.Node) []string {
 	if n.Type == html.ElementNode && n.Data == "a" {

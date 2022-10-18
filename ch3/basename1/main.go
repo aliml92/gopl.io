@@ -20,7 +20,7 @@ func main() {
 	// NOTE: ignoring potential errors from input.Err()
 }
 
-//!+
+// !+
 // basename removes directory components and a .suffix.
 // e.g., a => a, a.go => a, a/b/c.go => c, a/b.c.go => b.c
 func basename(s string) string {

@@ -4,11 +4,9 @@ import (
 	"testing"
 )
 
-
-
-func TestLineCounter(t *testing.T){
-	tests := []struct{
-		name string
+func TestLineCounter(t *testing.T) {
+	tests := []struct {
+		name  string
 		input []byte
 		want  int
 	}{
@@ -30,10 +28,9 @@ func TestLineCounter(t *testing.T){
 	}
 }
 
-
-func TestWordCounter(t *testing.T){
-	tests := []struct{
-		name string
+func TestWordCounter(t *testing.T) {
+	tests := []struct {
+		name  string
 		input []byte
 		want  int
 	}{

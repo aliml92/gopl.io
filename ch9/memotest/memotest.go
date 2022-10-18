@@ -17,7 +17,7 @@ import (
 	"time"
 )
 
-//!+httpRequestBody
+// !+httpRequestBody
 func httpGetBody(url string) (interface{}, error) {
 	resp, err := http.Get(url)
 	if err != nil {

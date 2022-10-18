@@ -18,7 +18,7 @@ import (
 	"time"
 )
 
-//!+
+// !+
 var verbose = flag.Bool("v", false, "show verbose progress messages")
 
 func main() {

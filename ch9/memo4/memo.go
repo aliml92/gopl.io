@@ -19,7 +19,7 @@ type result struct {
 	err   error
 }
 
-//!+
+// !+
 type entry struct {
 	res   result
 	ready chan struct{} // closed when res is ready

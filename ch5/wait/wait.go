@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-//!+
+// !+
 // WaitForServer attempts to contact the server of a URL.
 // It tries for one minute using exponential back-off.
 // It reports an error if all attempts fail.

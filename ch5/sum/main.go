@@ -8,7 +8,7 @@ package main
 
 import "fmt"
 
-//!+
+// !+
 func sum(vals ...int) int {
 	total := 0
 	for _, val := range vals {
